@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/cupertino/jquery-ui.css">
+  <link rel="stylesheet" href="estilo.css">
+
+  <title> CLJ </title>
+</head>
+
+<body>
+  <header>
+    <nav class="header_nav menu">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-1">
+            <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-justify"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
+              </svg>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#definicao"> Definições</a></li>
+              <li><a class="dropdown-item" href="#carat"> Caracterização </a></li>
+              <li><a class="dropdown-item" href="#importancia"> Importância </a></li>
+              <li><a class="dropdown-item" href="#podcast"> Podcast</a></li>
+              <li><a class="dropdown-item" href="#candidatos"> Conheça os candidatos</a></li>
+              <li><a class="dropdown-item" href="#galeria"> Galeria </a></li>
+            </ul>
+          </div>
+
+          <div class="col-2">
+
+            <p class="p_icone" target="_blank">
+              <a href="index.html" class="icone">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23" fill="currentColor" class="bi bi-bank"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z" />
+                </svg> CLJ
+              </a>
+            </p>
+          </div>
+
+          <div class="col-3">
+            <a href="candidatos.html" class="link_nav" target="_blank"> CANDIDATOS </a>
+          </div>
+
+          <div class="col-3">
+            <a href="sobre.html" class="link_nav" target="_blank"> SOBRE NÓS</a>
+          </div>
+
+          <div class="col-3">
+            <a href="outros.html" class="link_nav" target="_blank"> ACESSE </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="titulo">
+      <h3> Bem vindo!</h3>
+      <h1> Cultura, Lazer e Juventude </h1>
+      <h5> Página para ter acesso as propostas dos candidatos à presidência no ano de 2022, referentes ao tema cultura,
+        lazer e juventude.</h5>
+    </div>
+
+  </header>
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-2">
+
+      </div>
+      <div class="col-3">
+        <img src="images/icon_cultura.png" alt="Ícone de cultura" class="icon_cultura">
+      </div>
+      <div class="col-2">
+        <img src="images/icon_jovens.png" alt="Ícone de jovens" class="icon_jovens">
+      </div>
+      <div class="col-3">
+        <img src="images/icon_lazer.png" alt="Ícone de lazer" class="icon_lazer">
+      </div>
+      <div class="col-2">
+
+      </div>
+    </div>
+  </div>
+
+  <br><br><br>
+  <hr>
+
+  <main>
+
+
+    <div class="container">
+
+      <h1 class="subtitulo" id="definicao"> DEFINIÇÕES </h1>
+
+      <div class="row">
+        <div class="ret_assunto col">
+          <h3> - O que é cultura? </h3>
+          <p class="p_geral">
+            Quanto ao conceito de cultura, podemos definir as políticas culturais como
+            um conjunto de iniciativas e medidas que possuem um apoio institucional
+            sistemático composto pela administração pública ou instituições civis,
+            grupos comunitários e empresas privadas na concepção de guiar o
+            reconhecimento, a proteção e o estímulo ao desenvolvimento simbólico
+            material e imaterial de determinada sociedade, grupo social ou nação. O
+            Ministério do Turismo é o órgão do governo brasileiro que está relacionado
+            com as políticas culturais.
+          </p>
+        </div>
+
+
+        <div class="ret_assunto col">
+          <h3> - O que é lazer? </h3>
+          <p class="p_geral">
+            Já as políticas públicas de lazer estão relacionadas com o direito social de
+            todos, são extremamente importantes para o desenvolvimento social.
+            Dessa forma, elas favorecem o bem-estar físico e mental, também são úteis
+            à economia e à cultura do grupo social. Uma das principais funções das
+            políticas públicas de lazer é solicitar/desenvolver ações que diminuem as
+            desigualdades sociais e asseguram melhorias no funcionamento de
+            relações entre o espaço e o indivíduo. A Secretaria Nacional de Esporte,
+            Educação, Lazer e Inclusão Social (SNELIS) é o órgão do governo brasileiro
+            que é responsável pelo lazer.
+          </p>
+        </div>
+
+        <div class="ret_assunto col">
+          <h3> - O que é juventude? </h3>
+          <p class="p_geral">
+            No conceito de juventude temos as PPJs “Políticas Públicas de Juventude”.
+            No Brasil, essas políticas vêm se fortalecendo nos últimos anos, visto que
+            foi introduzido o termo “jovem” na Constituição Federal, o que possibilitou
+            a garantia dos direitos que a juventude nunca teve no país. Em relação a
+            juventude, na política brasileira, observamos que ela contempla os 11 eixos
+            do Estatuto da Juventude com o objetivo de garantir a efetivação dos
+            direitos dos direitos dos jovens brasileiros, construir perspectivas para a
+            juventude, atualizando a pauta do protagonismo no desenvolvimento
+            nacional, reconhecendo o jovem como agente necessário na construção de
+            um novo país. O Sistema Nacional de Juventude (SINAJUVE) é o órgão do
+            governo do Brasil que é responsável pela Juventude.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <br><br><br>
+    <hr>
+
+
+    <div class="container">
+      <h1 class="subtitulo" id="carat"> CARACTERIZAÇÃO DO TEMA</h1>
+      <div id="tabs">
+        <ul>
+          <li><a href="#tabs-1">Cultura</a></li>
+          <li><a href="#tabs-2"> Lazer</a></li>
+          <li><a href="#tabs-3"> Juventude</a></li>
+        </ul>
+        <div id="tabs-1">
+          <p class="p_geral">
+            O Brasil é altamente admirado por sua diversidade cultural e
+            criação artística. No entanto, segundo o IBGE (2010), a maioria da
+            população não tem acesso aos produtos produzidos em terras
+            nacionais e 41% desses produtos estão concentrado nas regiões
+            metropolitanas. Em outras palavras, há um descompasso entre a
+            oferta de produtos de artísticos e a aquisição dos mesmos.
+          </p>
+
+          <p class="p_geral">
+            Um dos maiores problemas é a desigualdade da distribuição
+            desses patrimônios artísticos, que infelizmente acaba afetando
+            grande parte da população brasileira. Em uma pesquisa realizada
+            pelo Ministério da Cultura em 2013 demonstrou que 75% dos
+            brasileiros ou não frequentam ou nunca foram a um museu, e isso
+            acontece pois várias dessas pessoas sentem que não pertencem a
+            esse tipo local e acabam não se sentindo à vontade com isso.
+          </p>
+
+          <p class="p_geral">
+            Dessa forma, as desigualdades culturais podem resultar da
+            distribuição assimétrica do patrimônio e da falta de público.
+            Portanto, a ação do governo não deve apenas ampliar as
+            atividades e espaços que proporcionam atividades culturais, mas
+            também incentivar os cidadãos a participarem dessas atividades.
+          </p>
+        </div>
+        <div id="tabs-2">
+          <p class="p_geral">
+            O tema políticas públicas de lazer muitas vezes é reconhecido
+            apenas como diversão e entretenimento, mas na verdade ele vai
+            muito além disso, também pode ser considerado como
+            possibilidades de vivência que valorizem alguns sentimentos
+            baseados na criatividade, no aprendizado e na crítica.
+          </p>
+
+          <p class="p_geral">
+            Podemos compreender o lazer também como uma interação
+            social que pode colaborar com o crescimento social de cada
+            pessoa. Mas ao aprofundarmos nessa discussão percebemos que
+            essas políticas públicas de lazer foram implantadas no Brasil, e
+            tiveram um grande predomínio em determinada funcionalidade.
+            Como por exemplo hoje notamos que a execução de
+            determinados projetos na área do lazer acontecem com o
+            determinado intuito de ter uma “válvula de escape”, ou seja,
+            determinados projetos sociais relacionados ao lazer estão sendo
+            executados com o objetivo de “mascarar” certos problemas
+            sociais.
+          </p>
+
+          <p class="p_geral">
+            Desse modo podemos enxergar a necessidade de termos projeto
+            e processos que ampliam o conhecimento da população e que
+            também incentive eles a praticar, ou seja, trabalhar com a
+            população para desenvolver políticas que levem em conta suas
+            necessidades e queiram vivenciar esse benefício social.
+          </p>
+        </div>
+        <div id="tabs-3">
+          <p class="p_geral">
+            As políticas públicas de juventude exige uma maior atenção, pois
+            hoje percebemos que é a área mais afetada, considerando os
+            graves problemas que os jovens enfrentam na atualidade.
+          </p>
+
+          <p class="p_geral">
+            A sociedade tem assistido o crescimento do número de casos
+            policiais que envolvem jovens, cada vez com menos idade, como
+            vítimas ou como acusados de crime. E a partir desse crescente
+            número percebemos como o Brasil deve se preocupar com essa
+            faixa etária da população.
+          </p>
+
+          <p class="p_geral">
+            Diante disso necessitamos de um urgente investimento
+            econômico, educacional, cultural, político e social, que reflita essa
+            realidade dos jovens tanto com um coletivismo, como na
+            diversidade, que resultem assim em ações social que possam
+            amenizar e até mesmo resolver esses problemas.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <br><br><br>
+    <hr>
+
+    <div class="container ret_impor">
+      <div class="row">
+        <div class="col-6">
+          <img src="images/img_cultura.jpg" alt="Imagem representando cultura" class="img_cultura">
+        </div>
+
+        <div class="col-6">
+          <h1 class="subtitulo_impor" id="importancia"> IMPORTÂNCIA DO TEMA </h1>
+          <p class="p_geral">
+            Texto não enviado <br>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with de
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with de
+          </p>
+        </div>
+
+        
+      </div>
+    </div>
+
+    <br><br><br>
+    <hr>
+
+    <div class="ret_podcast container">
+      <h1 class="subtitulo" id="podcast"> PODCAST </h1>
+
+      <div class="row">
+        <div class="podcast text-center col-6">
+          Lugar do podcast(áudio ou podcast postado no youtube)
+        </div>
+
+        <div class="text-justify col-6 p_podcast">
+          <h3 class="text-center">Introdução ao tema</h3> <br>
+          <p class="p_geral">
+            (Texto não enviado) <br>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's
+            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+            make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+            typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+            sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <br><br><br>
+    <hr>
+
+
+    <div class="container text-center">
+      <h1 class="subtitulo" id="candidatos"> CONHEÇA OS CANDIDATOS À PRESIDÊNCIA </h1>
+      <div class="row">
+        <div class="col-lg-3">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/lula.jpeg" role="img"
+            aria-label="Placeholder:140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+          <h2 class="fw-normal"> Lula </h2>
+          <p><a class="btn btn-warning" href="candidatos.html" target="_blank"> Olhe mais detalhes &raquo;</a></p>
+
+        </div>
+        <div class="col-lg-3">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/bolsonaro.jpg" role="img"
+            aria-label="Placeholder:140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+          <h2 class="fw-normal"> Jair Bolsonaro</h2>
+          <p><a class="btn btn-warning" href="candidatos.html" target="_blank">Olhe mais detalhes &raquo;</a></p>
+
+        </div>
+        <div class="col-lg-3">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/ciro.jpg" role="img"
+            aria-label="Placeholder:140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+          <h2 class="fw-normal">Ciro Gomes</h2>
+          <p><a class="btn btn-warning" href="candidatos.html" target="_blank">Olhe mais detalhes &raquo;</a></p>
+        </div>
+
+        <div class="col-lg-3">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/simone.jpg" role="img"
+            aria-label="Placeholder:140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+          <h2 class="fw-normal"> Simone Tebet </h2>
+          <p><a class="btn btn-warning" href="candidatos.html" target="_blank">Olhe mais detalhes &raquo;</a></p>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-lg-3">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/leo.jpg" role="img"
+            aria-label="Placeholder:140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+          <h2 class="fw-normal"> Leonardo Péricles </h2>
+          <p><a class="btn btn-warning" href="candidatos.html" target="_blank">Olhe mais detalhes &raquo;</a></p>
+
+        </div>
+        <div class="col-lg-3">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/dvila.jpg" role="img"
+            aria-label="Placeholder:140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+          <h2 class="fw-normal"> Luiz Felipe D'Avila </h2>
+          <p><a class="btn btn-warning" href="candidatos.html" target="_blank">Olhe mais detalhes &raquo;</a></p>
+
+        </div>
+        <div class="col-lg-3">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/vera.jpg" role="img"
+            aria-label="Placeholder:140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+          <h2 class="fw-normal"> Vera Lúcia </h2>
+          <p><a class="btn btn-warning" href="candidatos.html" target="_blank">Olhe mais detalhes &raquo;</a></p>
+        </div>
+
+        <div class="col-lg-3">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/sofia1.jpg" role="img"
+            aria-label="Placeholder:140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+          <h2 class="fw-normal"> Sofia Manzano</h2>
+          <p><a class="btn btn-warning" href="candidatos.html" target="_blank">Olhe mais detalhes &raquo;</a></p>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-lg-3">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/eymanuel.jpg" role="img"
+            aria-label="Placeholder:140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+          <h2 class="fw-normal"> Eymael </h2>
+          <p><a class="btn btn-warning" href="candidatos.html" target="_blank">Olhe mais detalhes &raquo;</a></p>
+
+        </div>
+        <div class="col-lg-3">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/soraya.jpg" role="img"
+            aria-label="Placeholder:140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+          <h2 class="fw-normal"> Soraya Thronicke </h2>
+          <p><a class="btn btn-warning" href="candidatos.html" target="_blank">Olhe mais detalhes &raquo;</a></p>
+
+        </div>
+        <div class="col-lg-3">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/pablo.jpg" role="img"
+            aria-label="Placeholder:140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+          <h2 class="fw-normal"> Pablo Marçal</h2>
+          <p><a class="btn btn-warning" href="candidatos.html" target="_blank">Olhe mais detalhes &raquo;</a></p>
+        </div>
+
+        <div class="col-lg-3">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/roberto.jpg" role="img"
+            aria-label="Placeholder:140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+          <h2 class="fw-normal"> Roberto Jefferson</h2>
+          <p><a class="btn btn-warning" href="candidatos.html" target="_blank">Olhe mais detalhes &raquo;</a></p>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <br><br><br>
+    <hr>
+
+    <div>
+      <h1 id="galeria" class="subtitulo"> GALERIA DE IMAGENS </h1>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+            aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+            aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+            aria-label="Slide 7"></button>
+
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/galeria1.jpeg" class="d-block w-100" alt="Cenário de um teatro">
+          </div>
+          <div class="carousel-item">
+            <img src="images/galeria2.jpeg" class="d-block w-100" alt="Duas pessoas assistindo um cinema ao ar livre">
+          </div>
+          <div class="carousel-item">
+            <img src="images/galeria3.jpg" class="d-block w-100"
+              alt="Pessoas se exercitando em uma academia ao ar livre">
+          </div>
+          <div class="carousel-item">
+            <img src="images/galeria4.jpg" class="d-block w-100" alt="Indivíduos praticando atividade física">
+          </div>
+          <div class="carousel-item">
+            <img src="images/galeria6.png" class="d-block w-100" alt="Jovens em uma manifestação">
+          </div>
+          <div class="carousel-item">
+            <img src="images/galeria7.jpg" class="d-block w-100" alt="Famílias se divertindo em um parque ao ar livre">
+          </div>
+          <div class="carousel-item">
+            <img src="images/galeria8.jpg" class="d-block w-100" alt="Parque da Cultura - Votuporanga - SP">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+
+
+
+  </main>
+
+  <button type="button" class="btn btn-secondary m-4">
+    <a href="#" class="btn_voltar">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-house"
+        viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+          d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+        <path fill-rule="evenodd"
+          d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+      </svg>
+      Voltar
+    </a>
+  </button>
+
+
+
+
+  <footer>
+    Copyright © 2022 Todos os Direitos Reservados. Desenvolvido por Karen Nanamy Kamo.
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+  <script>
+    $(function () {
+      $("#tabs").tabs();
+    });
+  </script>
+
+</body>
+
+</html>
