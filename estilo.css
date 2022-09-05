@@ -217,3 +217,33 @@ h1 {
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
 }
+
+.titulo_outros{
+    text-align: center;
+    background: rgb(16, 66, 119);
+    background: linear-gradient(158deg, rgba(16, 66, 119, 1) 17%, rgba(158, 0, 10, 1) 100%);
+    padding: 6em 6em 8em 6em;
+    color: white;
+
+}
+
+.ret_outros {
+    border-radius: 15%;
+    background-color: white;
+    margin: 1.5em;
+    padding: 1em;
+    -webkit-box-shadow: 2px 6px 11px 2px #979797;
+    box-shadow: 2px 6px 11px 2px #979797;
+}
+
+.img_outros{
+    width: 20em;
+    border-radius: 10%;
+    
+}
+
+.a_outros{
+    color: #3b3527;
+    margin: 1em;
+    text-decoration: none;
+}
