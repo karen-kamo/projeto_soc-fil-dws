@@ -34,15 +34,18 @@
 
 body {
     background-color: #f0f7fa;
+
 }
 
 header {
-    padding: 1em;
+    padding: 0;
+    margin-top: 1em;
+
 }
 
 footer {
     background-color: #4b4e54;
-    padding: 2em 2em 2em 4em;
+    padding: 2em;
     font-size: 1.3em;
     text-align: center;
     color: white;
@@ -50,8 +53,8 @@ footer {
 
 .titulo {
     text-align: center;
-    background: rgb(16, 66, 119);
-    background: linear-gradient(158deg, rgba(16, 66, 119, 1) 17%, rgba(158, 0, 10, 1) 100%);
+    background: rgb(189, 223, 224);
+    background: linear-gradient(0deg, rgb(234, 247, 247) 0%, rgb(154, 221, 222) 17%, rgb(29, 95, 165) 100%);
     padding: 6em 6em 12em 6em;
     color: white;
 
@@ -197,13 +200,56 @@ h1 {
     color: white;
 }
 
+.titulo_outros {
+    text-align: center;
+    background: rgb(189, 223, 224);
+    background: linear-gradient(0deg, rgb(234, 247, 247) 0%, rgb(154, 221, 222) 17%, rgb(29, 95, 165) 100%);
+    padding: 6em 6em 12em 6em;
+    color: white;
+    padding: 6em 6em 8em 6em;
+
+}
+
+.ret_outros {
+    border-radius: 15%;
+    background-color: white;
+    margin: 1.5em;
+    padding: 1em;
+    -webkit-box-shadow: 2px 6px 11px 2px #979797;
+    box-shadow: 2px 6px 11px 2px #979797;
+}
+
+.img_outros {
+    width: 20em;
+    border-radius: 10%;
+
+}
+
+.a_outros {
+    color: #3b3527;
+    margin: 1em;
+    text-decoration: none;
+}
+
+.img_cand {
+    max-width: 250px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    border-radius: 10%;
+    -webkit-box-shadow: 2px 6px 11px 2px #979797;
+    box-shadow: 2px 6px 11px 2px #979797;
+}
+
 .cand1,
 .cand2 {
     border: solid black 2px;
     -webkit-box-shadow: 2px 6px 11px 2px #979797;
     box-shadow: 2px 6px 11px 2px #979797;
-    width: 500px;
-    padding: 10px;
+    width: 900px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cand1 {
@@ -218,32 +264,22 @@ h1 {
     border-top-left-radius: 20px;
 }
 
-.titulo_outros{
+
+.textinho {
     text-align: center;
-    background: rgb(16, 66, 119);
-    background: linear-gradient(158deg, rgba(16, 66, 119, 1) 17%, rgba(158, 0, 10, 1) 100%);
-    padding: 6em 6em 8em 6em;
-    color: white;
-
+    font-weight: bold;
 }
 
-.ret_outros {
-    border-radius: 15%;
-    background-color: white;
-    margin: 1.5em;
-    padding: 1em;
-    -webkit-box-shadow: 2px 6px 11px 2px #979797;
-    box-shadow: 2px 6px 11px 2px #979797;
+.footer_linha {
+    border-bottom: 1px white dashed;
+    font-size: 0.7em;
+    text-align: left;
 }
 
-.img_outros{
-    width: 20em;
-    border-radius: 10%;
-    
+.direitos {
+    margin-top: 2em;
 }
 
-.a_outros{
-    color: #3b3527;
-    margin: 1em;
-    text-decoration: none;
+b{
+    font-size: 1.7em;
 }
