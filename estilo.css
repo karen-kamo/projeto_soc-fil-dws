@@ -34,12 +34,8 @@
 
 body {
     background-color: #f0f7fa;
-
-}
-
-header {
+    margin: 0;
     padding: 0;
-    margin-top: 1em;
 
 }
 
@@ -60,7 +56,9 @@ footer {
 
 }
 
+
 .menu {
+    padding-top: 1em;
     background-color: white;
 }
 
@@ -176,10 +174,10 @@ h1 {
     text-decoration: none;
     color: black;
     font-size: 1.3em;
+    padding-top: 0.5em;
 }
 
 .podcast {
-    border: solid 1px black;
     width: 35em;
     height: 25em;
 }
@@ -211,7 +209,7 @@ h1 {
 }
 
 .ret_outros {
-    border-radius: 15%;
+    border-radius: 50px;
     background-color: white;
     margin: 1.5em;
     padding: 1em;
@@ -225,21 +223,30 @@ h1 {
 
 }
 
-.a_outros {
-    color: #3b3527;
-    margin: 1em;
-    text-decoration: none;
+.subtitulo_outros {
+    background: #1D218A;
+    background: linear-gradient(to right, #1D218A 0%, #8BA9FC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+
 }
 
-.img_cand {
-    max-width: 250px;
-    max-height: 200px;
-    width: auto;
-    height: auto;
-    border-radius: 10%;
-    -webkit-box-shadow: 2px 6px 11px 2px #979797;
-    box-shadow: 2px 6px 11px 2px #979797;
+.a_outros {
+    color: #3b3527;
+    margin: 0.7em;
+    text-decoration: none;
+    background-color: #b8c7e0;
 }
+
+.a_outros:hover {
+    color: #3b3527;
+    margin: 0.7em;
+    text-decoration: none;
+    background-color: #b8c7e0;
+}
+
+
 
 .cand1,
 .cand2 {
@@ -280,6 +287,43 @@ h1 {
     margin-top: 2em;
 }
 
-b{
-    font-size: 1.7em;
+
+.caixinha_cand {
+    -webkit-box-shadow: 3px 1px 24px -9px #000000;
+    box-shadow: 3px 1px 24px -9px #000000;
+    padding: 2em;
+    border-radius: 20px;
+    margin: 1.5em;
+    font-size: 1.1em;
+}
+
+.titulo_cand {
+    background: #0E2F4D;
+    background: linear-gradient(to right, #0E2F4D 0%, #406BCF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-decoration: overline 5px #304a70;
+}
+
+.img_cand {
+    width: 15em;
+    height: 13em;
+    border-radius: 5px;
+    -webkit-box-shadow: 2px 6px 11px 2px #979797;
+    box-shadow: 2px 6px 11px 2px #979797;
+}
+
+.main_cand{
+    margin: 4em;
+}
+
+.img_sobre{
+    width: 10em;
+    height: 10em;
+}
+
+.titulo_prop{
+    text-decoration: underline 2px black;
 }
